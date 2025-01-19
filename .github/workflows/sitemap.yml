@@ -26,8 +26,8 @@ jobs:
 
     - name: Commit and Push Sitemap
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "busara-s"
+        git config --global user.email "busara.saelim@gmail.com"
         git add sitemap.xml
         git commit -m "Update sitemap.xml"
         git push
