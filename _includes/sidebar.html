@@ -1,0 +1,64 @@
+<div class="sidebar">
+  <div>
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+  
+
+<p>
+      <div class="header-links">
+        <li>
+          <a href="mailto:{{ site.author.email }}">
+            <svg width="25px" height="25px" fill="white"><use xlink:href="{{ site.baseurl }}public/icons/email.svg#icon-email"></use></svg>
+          </a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank">
+            <svg width="25px" height="25px" fill="white" style="display: table-column-group;"><use xlink:href="{{ site.baseurl }}public/icons/linkedin.svg#icon-linkedin"></use></svg>
+          </a>
+        </li>
+  
+        <li>
+          <a href="{{ site.github.repo }}" target="_blank">
+            <svg width="25px" height="25px" fill="white" style="display: table-column-group;"><use xlink:href="{{ site.baseurl }}public/icons/github.svg#icon-github"></use></svg>
+          </a>
+        </li>
+      </div>
+    </p>
+
+
+
+    </nav>
+
+    
+    
+    
+
+    
+    
+  </div>
+</div>

@@ -1,1 +1,26 @@
-theme: minima
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+
+
+# Setup
+title:            Home
+tagline:          ''
+description:      ''
+url:              
+baseurl:          /
+
+author:
+  name:           'Busara Saelim'
+  linkedin:       'busara-saelim-011920a9'
+  email:          'busara.saelim@gmail.com'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0      
+
+github:
+  repo:           https://busara-s.github.io
