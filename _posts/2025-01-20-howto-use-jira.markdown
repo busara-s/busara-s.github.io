@@ -1,8 +1,7 @@
-
------
-theme: post
+---
+layout: post
 title: How to Use JIRA as a Business Analyst
------
+---
 
 JIRA is a powerful project management and issue-tracking tool widely used in Agile environments. For a Business Analyst (BA), JIRA is essential for managing requirements, tracking progress, and collaborating with the team.
 
@@ -11,14 +10,14 @@ Here’s a guide on how a BA can effectively use JIRA to enhance their workflow.
 ## 1. Understand JIRA Basics
 ### Key Concepts in JIRA:
 * Projects: The overarching container for all issues, boards, and configurations related to a specific initiative.
-    * Issues: The individual items tracked in JIRA, such as:
+* Issues: The individual items tracked in JIRA, such as:
     * Epics: Large bodies of work broken down into stories or tasks.
     * Stories: User requirements or functionalities.
     * Tasks: General work items.
     * Bugs: Problems or errors that need fixing.
 * Workflows: The sequence of statuses an issue moves through (e.g., To Do → In Progress → Done).
 
-## Navigation:
+### Navigation:
 * Dashboards: Customize views for tracking progress and performance.
 * Boards: Use Scrum or Kanban boards to visualize workflows.
 
@@ -36,7 +35,7 @@ Here’s a guide on how a BA can effectively use JIRA to enhance their workflow.
 * Steps:
     1. Create a new issue and select Story as the issue type.
     2. Use the User Story Format:
-        * As a [type of user], I want [goal] so that [benefit].
+        * *As a [type of user], I want [goal] so that [benefit]*.
         * Example: "As a user, I want to reset my password so that I can access my account if I forget it."
     3. Add Acceptance Criteria:
         * Clearly define what needs to be achieved for the story to be complete.
@@ -51,13 +50,13 @@ Here’s a guide on how a BA can effectively use JIRA to enhance their workflow.
 ## 3. Collaborate with the Team
 ### Commenting
 Use the Comment section in issues to ask questions, provide updates, or clarify requirements.
-Tag team members using @username to notify them directly.
+Tag team members using `@username` to notify them directly.
 
 ### Link Issues
 * Link related tasks, bugs, or stories to maintain traceability.
     * Example: Link a bug to the corresponding story it affects.
-Assign Issues
-Assign tasks to team members to ensure ownership and accountability.
+### Assign Issues
+* Assign tasks to team members to ensure ownership and accountability.
 
 ## 4. Use JIRA Boards to Track Progress
 ### Scrum Board
@@ -109,7 +108,7 @@ Assign tasks to team members to ensure ownership and accountability.
 ## Tools and Features to Enhance Your Workflow
 1. Confluence Integration: Link documentation to JIRA issues for seamless access to detailed requirements.
 2. JIRA Query Language (JQL): Use advanced searches to find and filter issues efficiently.
-    * Example: status = "In Progress" AND assignee = currentUser().
+    * Example: `status = "In Progress" AND assignee = currentUser()`.
 3. Automation Rules: Set up automated workflows, such as assigning tasks or sending notifications when an issue status changes.
 
 ## Conclusion
