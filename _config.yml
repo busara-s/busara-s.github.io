@@ -17,10 +17,10 @@ author:
   linkedin:       'busara-saelim-011920a9'
   email:          'busara.saelim@gmail.com'
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          2.1.0      
 
 github:
-  repo:           https://busara-s.github.io
+  repo:           https://github.com/busara-s/busara-s.github.io
