@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Use "Flux-Midjourney-Mix2-LoRA" Model on Hugging Face
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\strangerzone.png
 ---
 
 The Flux-Midjourney-Mix2-LoRA model is designed to enhance the quality of generative images using the LoRA (Low-Rank Adaptation) technique. Follow this guide to get started with the model.

@@ -8,6 +8,7 @@ tagline:          ''
 description:      ''
 
 url:              
+#baseurl:          /
 baseurl:          https://busara-s.github.io/
 
 author:

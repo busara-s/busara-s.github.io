@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Customize a GitHub Page Using Jekyll Template
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\jekyll-theme.png
 ---
 
 ![img](\public\img\jekylltheme.png)

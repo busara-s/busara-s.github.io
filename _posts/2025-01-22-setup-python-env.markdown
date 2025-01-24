@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting Up a Python Environment with Miniconda
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\conda.png
 ---
 
 Miniconda is a lightweight version of Anaconda that includes only Conda, Python, and the packages they depend on. It's ideal for creating isolated Python environments without the bulk of a full Anaconda installation.

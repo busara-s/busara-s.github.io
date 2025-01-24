@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Use JIRA as a Business Analyst
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\jira-thumbnail.png
 ---
 
 JIRA is a powerful project management and issue-tracking tool widely used in Agile environments. For a Business Analyst (BA), JIRA is essential for managing requirements, tracking progress, and collaborating with the team.

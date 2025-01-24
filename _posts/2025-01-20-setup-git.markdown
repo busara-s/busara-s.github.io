@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Set Up Git- A Step-by-Step Guide
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\git.png
 ---
 Git is a popular version control system used by developers to track code changes, collaborate with others, and manage project versions. This guide will walk you through setting up Git on your local machine.
 

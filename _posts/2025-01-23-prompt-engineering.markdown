@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is Prompt Engineering and How to Write Prompts Effectively?
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\prompt.png
 ---
 
 Prompt engineering is a specialized skill in the field of artificial intelligence (AI), particularly for working with Large Language Models (LLMs) like OpenAI's GPT, Google’s Bard, or models available on Hugging Face. It involves crafting precise instructions (prompts) to guide an AI system to generate accurate, relevant, and valuable outputs. This skill is essential in optimizing the performance of AI systems across diverse applications, such as text generation, summarization, coding, or even art creation.

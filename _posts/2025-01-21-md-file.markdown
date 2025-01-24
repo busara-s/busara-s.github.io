@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Beginner's Guide to Markdown (.md) File Type
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\markdown.png
 ---
 
 Markdown is a lightweight markup language that allows you to format text using a plain-text editor. Files written in Markdown use the `.md` or `.markdown` file extension and are widely used for documentation, README files, blog posts, and technical writing.

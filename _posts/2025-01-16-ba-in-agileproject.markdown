@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What a Business Analyst Does Daily in an Agile Project
-thumbnail: \public\apple-touch-icon-144-precomposed.png
+thumbnail: \public\img\agile-thumbnail.png
 ---
 
 ![img](\public\img\agile.png)
