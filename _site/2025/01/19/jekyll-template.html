@@ -115,7 +115,9 @@
       <div class="post">
   <h1 class="post-title">How to Customize a GitHub Page Using Jekyll Template</h1>
   <span class="post-date">19 Jan 2025</span>
-  <p>GitHub Pages integrates seamlessly with <a href="https://jekyllrb.com/">Jekyll</a>, a static site generator, allowing you to create and customize professional websites easily. Follow this step-by-step guide to set up and customize your page using a Jekyll template.</p>
+  <p><img src="\public\img\jekylltheme.png" alt="img" /></p>
+
+<p>GitHub Pages integrates seamlessly with <a href="https://jekyllrb.com/">Jekyll</a>, a static site generator, allowing you to create and customize professional websites easily. Follow this step-by-step guide to set up and customize your page using a Jekyll template.</p>
 
 <h2 id="step-1-enable-jekyll-on-your-github-page">Step 1: Enable Jekyll on Your GitHub Page</h2>
 <ol>
@@ -155,7 +157,7 @@
   </li>
 </ol>
 
-<h2 id="step-3-install-jekyll-locally-optional">Step 3: Install Jekyll Locally (Optional)</h2>
+<h2 id="step-3-install-jekyll-locally">Step 3: Install Jekyll Locally</h2>
 <p>Installing Jekyll locally allows you to preview changes before pushing them to GitHub.</p>
 
 <h3 id="install-prerequisites">Install Prerequisites:</h3>
@@ -229,158 +231,13 @@ Welcome to my website! I'm passionate about AI and technology. Here, I share my 
 <h3 id="3-modify-layouts">3. Modify Layouts</h3>
 <ul>
   <li>Go to the <code class="language-plaintext highlighter-rouge">_layouts</code> directory.</li>
-  <li>Edit or create custom HTML templates for your pages.
-Example <code class="language-plaintext highlighter-rouge">default.html</code> layout:</li>
+  <li>
+    <p>Edit or create custom HTML templates for your pages.
+Example <code class="language-plaintext highlighter-rouge">default.html</code> layout:</p>
+
+    <p><img src="\public\img\default-html.png" alt="img" /></p>
+  </li>
 </ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;!DOCTYPE html&gt;
-  &lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;How to Customize a GitHub Page Using Jekyll Template&lt;/title&gt;
-    &lt;meta name="description" content=""&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;header&gt;
-      &lt;h1&gt;Home&lt;/h1&gt;
-      &lt;nav&gt;
-        &lt;a href="/"&gt;Home&lt;/a&gt;
-        &lt;a href="/about"&gt;About&lt;/a&gt;
-      &lt;/nav&gt;
-    &lt;/header&gt;
-    &lt;main&gt;
-      &lt;div class="post"&gt;
-  &lt;h1 class="post-title"&gt;How to Create a GitHub Page&lt;/h1&gt;
-  &lt;span class="post-date"&gt;18 Jan 2025&lt;/span&gt;
-  &lt;p&gt;GitHub Pages is a free service that allows you to host websites directly from your GitHub repository. Follow this step-by-step guide to create your GitHub Page.&lt;/p&gt;
-
-&lt;h2 id="step-1-set-up-a-github-repository"&gt;Step 1: Set Up a GitHub Repository&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Log in to GitHub: Go to &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt; and log in to your account.&lt;/li&gt;
-  &lt;li&gt;Create a New Repository:
-    &lt;ul&gt;
-      &lt;li&gt;Click the + button in the top-right corner and select New repository.&lt;/li&gt;
-      &lt;li&gt;Enter a repository name (e.g., &lt;code class="language-plaintext highlighter-rouge"&gt;my-portfolio&lt;/code&gt;).&lt;/li&gt;
-      &lt;li&gt;Set the repository to Public (required for GitHub Pages).&lt;/li&gt;
-      &lt;li&gt;Check Add a README file.&lt;/li&gt;
-      &lt;li&gt;Click Create repository.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="step-2-add-your-website-files"&gt;Step 2: Add Your Website Files&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Clone the repository to your local machine:
-    &lt;div class="language-plaintext highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;bash
-git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;repository-name&amp;gt;.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Add your website files (e.g., &lt;code class="language-plaintext highlighter-rouge"&gt;index.html&lt;/code&gt;, &lt;code class="language-plaintext highlighter-rouge"&gt;style.css&lt;/code&gt;, and images) to the repository folder.&lt;/li&gt;
-  &lt;li&gt;Commit and push the changes:
-    &lt;div class="language-plaintext highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;bash
-git add .
-git commit -m "Add website files"
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="step-3-enable-github-pages"&gt;Step 3: Enable GitHub Pages&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Go to the Settings tab of your repository.&lt;/li&gt;
-  &lt;li&gt;Scroll down to the Pages section (on the left sidebar or under “Code and Automation”).&lt;/li&gt;
-  &lt;li&gt;Under Branch, select the branch you want to publish (usually &lt;code class="language-plaintext highlighter-rouge"&gt;main&lt;/code&gt;) and click Save.&lt;/li&gt;
-  &lt;li&gt;GitHub will display the URL where your site is hosted, typically:
-    &lt;div class="language-plaintext highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;https://&amp;lt;your-username&amp;gt;.github.io/&amp;lt;repository-name&amp;gt;/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="step-4-test-your-website"&gt;Step 4: Test Your Website&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Open the URL provided in the GitHub Pages section.&lt;/li&gt;
-  &lt;li&gt;Verify that your website is displayed correctly.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="step-5-customize-your-website-optional"&gt;Step 5: Customize Your Website (Optional)&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Use a Custom Domain:
-    &lt;ul&gt;
-      &lt;li&gt;Purchase a domain from a registrar (e.g., Namecheap, Google Domains).&lt;/li&gt;
-      &lt;li&gt;Add a &lt;code class="language-plaintext highlighter-rouge"&gt;CNAME&lt;/code&gt; file to your repository with your custom domain name.&lt;/li&gt;
-      &lt;li&gt;Configure DNS settings with your registrar to point to GitHub Pages.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Enhance with Jekyll:
-    &lt;ul&gt;
-      &lt;li&gt;GitHub Pages supports Jekyll, a static site generator. Add a &lt;code class="language-plaintext highlighter-rouge"&gt;_config.yml&lt;/code&gt; file to customize themes, plugins, and layouts.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="step-6-maintain-and-update-your-site"&gt;Step 6: Maintain and Update Your Site&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Update your website files locally.&lt;/li&gt;
-  &lt;li&gt;Push changes to the repository:
-    &lt;div class="language-plaintext highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;bash
-git add .
-git commit -m "Update website content"
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Changes will automatically reflect on your GitHub Page.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="additional-tips"&gt;Additional Tips&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Check Themes: GitHub offers built-in themes for Jekyll sites. Go to Settings &amp;gt; Pages &amp;gt; Change Theme.&lt;/li&gt;
-  &lt;li&gt;Add SEO: Include a &lt;code class="language-plaintext highlighter-rouge"&gt;robots.txt&lt;/code&gt; and &lt;code class="language-plaintext highlighter-rouge"&gt;sitemap.xml&lt;/code&gt; for search engine optimization.&lt;/li&gt;
-  &lt;li&gt;Monitor Traffic: Use Google Analytics or similar tools to track visitors.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/div&gt;
-
-&lt;div class="related"&gt;
-  &lt;h2&gt;Related Posts&lt;/h2&gt;
-  &lt;ul class="related-posts"&gt;
-    
-      &lt;li&gt;
-        &lt;h4&gt;
-          &lt;a href="/2025/01/23/prompt-engineering.html"&gt;
-            What is Prompt Engineering and How to Write Prompts Effectively?
-            &lt;small&gt;23 Jan 2025&lt;/small&gt;
-          &lt;/a&gt;
-        &lt;/h4&gt;
-      &lt;/li&gt;
-    
-      &lt;li&gt;
-        &lt;h4&gt;
-          &lt;a href="/2025/01/22/setup-python-env.html"&gt;
-            Setting Up a Python Environment with Miniconda
-            &lt;small&gt;22 Jan 2025&lt;/small&gt;
-          &lt;/a&gt;
-        &lt;/h4&gt;
-      &lt;/li&gt;
-    
-      &lt;li&gt;
-        &lt;h4&gt;
-          &lt;a href="/2025/01/22/Flux-Midjourney-Mix2-LoRA.html"&gt;
-            How to Use "Flux-Midjourney-Mix2-LoRA" Model on Hugging Face
-            &lt;small&gt;22 Jan 2025&lt;/small&gt;
-          &lt;/a&gt;
-        &lt;/h4&gt;
-      &lt;/li&gt;
-    
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-    &lt;/main&gt;
-    &lt;footer&gt;
-      &lt;p&gt;© Busara Saelim - 2025&lt;/p&gt;
-    &lt;/footer&gt;
-  &lt;/body&gt;
-  &lt;/html&gt;
-
-</code></pre></div></div>
 
 <h3 id="4-add-a-blog">4. Add a Blog</h3>
 <ol>
@@ -441,10 +298,6 @@ plugins:
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
 bundle install
 </code></pre></div></div>
-
-<ul>
-  <li>Custom Domain: Add a <code class="language-plaintext highlighter-rouge">CNAME</code> file to your repository with your custom domain name.</li>
-</ul>
 
 <h2 id="step-7-maintain-your-site">Step 7: Maintain Your Site</h2>
 <ul>

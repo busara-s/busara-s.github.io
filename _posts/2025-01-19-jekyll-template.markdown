@@ -4,6 +4,8 @@ title: How to Customize a GitHub Page Using Jekyll Template
 thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
+![img](\public\img\jekylltheme.png)
+
 GitHub Pages integrates seamlessly with [Jekyll](https://jekyllrb.com/), a static site generator, allowing you to create and customize professional websites easily. Follow this step-by-step guide to set up and customize your page using a Jekyll template.
 
 ## Step 1: Enable Jekyll on Your GitHub Page
@@ -32,7 +34,7 @@ GitHub Pages integrates seamlessly with [Jekyll](https://jekyllrb.com/), a stati
   cd <repository-name>
   ```
 
-## Step 3: Install Jekyll Locally (Optional)
+## Step 3: Install Jekyll Locally
 Installing Jekyll locally allows you to preview changes before pushing them to GitHub.
 
 ### Install Prerequisites:
@@ -106,31 +108,7 @@ Welcome to my website! I'm passionate about AI and technology. Here, I share my 
 * Edit or create custom HTML templates for your pages.
 Example `default.html` layout:
 
-```
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-  </head>
-  <body>
-    <header>
-      <h1>{{ site.title }}</h1>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-      </nav>
-    </header>
-    <main>
-      {{ content }}
-    </main>
-    <footer>
-      <p>© {{ site.author.name }} - {{ site.time | date: "%Y" }}</p>
-    </footer>
-  </body>
-  </html>
-
-```
+  ![img](\public\img\default-html.png)
 
 ### 4. Add a Blog
 1. Create a `_posts` folder.
@@ -188,8 +166,6 @@ Install plugins locally with:
 bash
 bundle install
 ```
-
-* Custom Domain: Add a `CNAME` file to your repository with your custom domain name.
 
 ## Step 7: Maintain Your Site
 * Update content regularly.

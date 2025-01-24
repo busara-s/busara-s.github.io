@@ -6,6 +6,8 @@ thumbnail: \public\apple-touch-icon-144-precomposed.png
 
 GitHub Pages is a free service that allows you to host websites directly from your GitHub repository. Follow this step-by-step guide to create your GitHub Page.
 
+![img](\public\img\github.png)
+
 ## Step 1: Set Up a GitHub Repository
 1. Log in to GitHub: Go to [GitHub](https://github.com/) and log in to your account.
 2. Create a New Repository:
@@ -44,12 +46,8 @@ https://<your-username>.github.io/<repository-name>/
 2. Verify that your website is displayed correctly.
 
 ## Step 5: Customize Your Website (Optional)
-1. Use a Custom Domain:
-    * Purchase a domain from a registrar (e.g., Namecheap, Google Domains).
-    * Add a `CNAME` file to your repository with your custom domain name.
-    * Configure DNS settings with your registrar to point to GitHub Pages.
-2. Enhance with Jekyll:
-    * GitHub Pages supports Jekyll, a static site generator. Add a `_config.yml` file to customize themes, plugins, and layouts.
+Enhance with Jekyll:
+* GitHub Pages supports Jekyll, a static site generator. Add a `_config.yml` file to customize themes, plugins, and layouts.
 
 ## Step 6: Maintain and Update Your Site
 1. Update your website files locally.
