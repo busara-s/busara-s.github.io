@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Set Up Git- A Step-by-Step Guide
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 Git is a popular version control system used by developers to track code changes, collaborate with others, and manage project versions. This guide will walk you through setting up Git on your local machine.
 
@@ -8,9 +9,10 @@ Git is a popular version control system used by developers to track code changes
 ### On Windows:
 1. Download the Git installer from the [Git](https://git-scm.com/) website.
 2. Run the installer and follow the prompts:
+    ![img](\public\img\git_install.png)
     * Select the default editor (e.g., Vim, Nano, or Notepad++).
     * Choose "Git from the command line and also from 3rd-party software."
-    * Use the recommended options unless you have specific preferences.
+    * Use the recommended options unless you have specific preferences.  
 3. Click Finish to complete the installation.
 
 ### On macOS:
@@ -42,6 +44,7 @@ Once installed, verify Git by checking its version:
 bash
 git --version
 ```
+![img](\public\img\git_ver.png)
 If Git is installed, it will display the installed version.
 
 ## Step 3: Configure Git

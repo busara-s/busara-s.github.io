@@ -1,9 +1,11 @@
 ---
 layout: post
 title: How to Use JIRA as a Business Analyst
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
 JIRA is a powerful project management and issue-tracking tool widely used in Agile environments. For a Business Analyst (BA), JIRA is essential for managing requirements, tracking progress, and collaborating with the team.
+![img](\public\img\jira.png)
 
 Here’s a guide on how a BA can effectively use JIRA to enhance their workflow.
 
@@ -60,6 +62,7 @@ Tag team members using `@username` to notify them directly.
 * Assign tasks to team members to ensure ownership and accountability.
 
 ## 4. Use JIRA Boards to Track Progress
+![img](\public\img\scrumboard.png)
 ### Scrum Board
 * Purpose: Visualize the sprint workflow.
 * Steps:
@@ -74,6 +77,7 @@ Tag team members using `@username` to notify them directly.
     2. Prioritize tasks and move them across the workflow.
 
 ## 5. Facilitate Backlog Grooming
+![img](\public\img\jirabacklog.png)
 ### Steps:
 1. Review the backlog with the Product Owner and team.
 2. Update or refine user stories with detailed descriptions or acceptance criteria.

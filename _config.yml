@@ -2,9 +2,6 @@
 markdown:         redcarpet
 highlighter:      pygments
 
-# Permalinks
-
-
 # Setup
 title:            Home
 tagline:          ''
@@ -17,10 +14,7 @@ author:
   linkedin:       'busara-saelim-011920a9'
   email:          'busara.saelim@gmail.com'
 
-paginate:         1
-
-# Custom vars
-version:          2.1.0      
+paginate:         4   
 
 github:
   repo:           https://github.com/busara-s/busara-s.github.io

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      How to Set Up Git- A Step-by-Step Guide &middot; Home
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div>
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Home
+        </a>
+      </h1>
+      <p class="lead"></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About</a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      
+  
+
+<p>
+      <div class="header-links">
+        <li>
+          <a href="mailto:busara.saelim@gmail.com">
+            <svg width="25px" height="25px" fill="white"><use xlink:href="/public/icons/email.svg#icon-email"></use></svg>
+          </a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/busara-saelim-011920a9/" target="_blank">
+            <svg width="25px" height="25px" fill="white" style="display: table-column-group;"><use xlink:href="/public/icons/linkedin.svg#icon-linkedin"></use></svg>
+          </a>
+        </li>
+  
+        <li>
+          <a href="https://github.com/busara-s/busara-s.github.io" target="_blank">
+            <svg width="25px" height="25px" fill="white" style="display: table-column-group;"><use xlink:href="/public/icons/github.svg#icon-github"></use></svg>
+          </a>
+        </li>
+      </div>
+    </p>
+
+
+
+    </nav>
+
+    
+    
+    
+
+    
+    
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">How to Set Up Git- A Step-by-Step Guide</h1>
+  <span class="post-date">20 Jan 2025</span>
+  <p>Git is a popular version control system used by developers to track code changes, collaborate with others, and manage project versions. This guide will walk you through setting up Git on your local machine.</p>
+
+<h2 id="step-1-install-git">Step 1: Install Git</h2>
+<h3 id="on-windows">On Windows:</h3>
+<ol>
+  <li>Download the Git installer from the <a href="https://git-scm.com/">Git</a> website.</li>
+  <li>Run the installer and follow the prompts:
+ <img src="\public\img\git_install.png" alt="img" />
+    <ul>
+      <li>Select the default editor (e.g., Vim, Nano, or Notepad++).</li>
+      <li>Choose “Git from the command line and also from 3rd-party software.”</li>
+      <li>Use the recommended options unless you have specific preferences.</li>
+    </ul>
+  </li>
+  <li>Click Finish to complete the installation.</li>
+</ol>
+
+<h3 id="on-macos">On macOS:</h3>
+<ol>
+  <li>Open Terminal.</li>
+  <li>Install Git using Homebrew:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+brew install git
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="on-linux">On Linux:</h3>
+<ol>
+  <li>Open Terminal.</li>
+  <li>Install Git using your package manager:
+    <ul>
+      <li>Ubuntu/Debian:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bash
+  sudo apt update
+  sudo apt install git
+</code></pre></div>        </div>
+      </li>
+      <li>Fedora:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bash
+  sudo dnf install git
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="step-2-verify-the-installation">Step 2: Verify the Installation</h2>
+<p>Once installed, verify Git by checking its version:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git --version
+</code></pre></div></div>
+<p><img src="\public\img\git_ver.png" alt="img" />
+If Git is installed, it will display the installed version.</p>
+
+<h2 id="step-3-configure-git">Step 3: Configure Git</h2>
+<p>Before using Git, configure your identity and preferences.</p>
+
+<h3 id="set-your-name-and-email">Set Your Name and Email:</h3>
+<p>Run the following commands to set your name and email address:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+</code></pre></div></div>
+<h3 id="check-your-configuration">Check Your Configuration:</h3>
+<p>To see the settings you’ve configured, use:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git config --list
+</code></pre></div></div>
+
+<h2 id="step-4-set-up-ssh-optional">Step 4: Set Up SSH (Optional)</h2>
+<p>Using SSH keys makes it easier and more secure to interact with remote repositories.</p>
+
+<ol>
+  <li>Generate an SSH Key:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
+</code></pre></div>    </div>
+    <p>Press Enter to save the key in the default location and set a passphrase (optional).</p>
+  </li>
+  <li>Add the SSH Key to the Agent:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+</code></pre></div>    </div>
+  </li>
+  <li>Add the SSH Key to Your GitHub Account:
+    <ul>
+      <li>Copy the SSH key:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bash
+ cat ~/.ssh/id_rsa.pub
+</code></pre></div>        </div>
+      </li>
+      <li>Go to your GitHub profile &gt; Settings &gt; SSH and GPG keys &gt; New SSH key.</li>
+      <li>Paste the copied key and save.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="step-5-create-a-git-repository">Step 5: Create a Git Repository</h2>
+<h3 id="initialize-a-local-repository">Initialize a Local Repository:</h3>
+<ol>
+  <li>Navigate to the folder you want to track:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+cd /path/to/your/project
+</code></pre></div>    </div>
+  </li>
+  <li>Initialize Git in the folder:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git init
+</code></pre></div>    </div>
+    <h3 id="clone-a-remote-repository">Clone a Remote Repository:</h3>
+    <p>If you’re working on an existing project, clone the repository:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git clone &lt;repository-url&gt;
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="step-6-basic-git-commands">Step 6: Basic Git Commands</h2>
+<p>Here are some essential Git commands to get you started:</p>
+
+<h3 id="add-files-to-the-staging-area">Add Files to the Staging Area:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git add &lt;file-name&gt;        # Add a specific file
+git add .                  # Add all changes in the current directory
+</code></pre></div></div>
+<h3 id="commit-changes">Commit Changes:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git commit -m "Your commit message"
+</code></pre></div></div>
+<h3 id="push-changes-to-remote">Push Changes to Remote:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git push origin main       # Push changes to the main branch
+</code></pre></div></div>
+<h3 id="pull-changes-from-remote">Pull Changes from Remote:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git pull origin main       # Pull updates from the main branch
+</code></pre></div></div>
+<h3 id="check-the-status-of-your-repository">Check the Status of Your Repository:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git status
+</code></pre></div></div>
+<h3 id="view-commit-history">View Commit History:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git log
+</code></pre></div></div>
+
+<h2 id="step-7-advanced-configuration-optional">Step 7: Advanced Configuration (Optional)</h2>
+<h3 id="set-a-default-branch-name">Set a Default Branch Name:</h3>
+<p>Change the default branch name (e.g., to <code class="language-plaintext highlighter-rouge">main</code>):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git config --global init.defaultBranch main
+</code></pre></div></div>
+<h3 id="enable-git-aliases">Enable Git Aliases:</h3>
+<p>Set up shortcuts for common commands:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.cm commit
+</code></pre></div></div>
+<p>Now you can use <code class="language-plaintext highlighter-rouge">git st</code> instead of <code class="language-plaintext highlighter-rouge">git status</code>, and so on.</p>
+
+<h2 id="step-8-practice-git-with-a-sample-workflow">Step 8: Practice Git with a Sample Workflow</h2>
+<ol>
+  <li>Create a file in your project:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+echo "Hello, Git!" &gt; hello.txt
+</code></pre></div>    </div>
+  </li>
+  <li>Add the file to the staging area:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git add hello.txt
+</code></pre></div>    </div>
+  </li>
+  <li>Commit the changes:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git commit -m "Add hello.txt"
+</code></pre></div>    </div>
+  </li>
+  <li>Push the changes to a remote repository:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash
+git remote add origin &lt;repository-url&gt;
+git push -u origin main
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="step-9-explore-further">Step 9: Explore Further</h2>
+<p>Learn more advanced Git features like branching, merging, and rebasing.
+Use GUIs for Git like <a href="https://github.com/apps/desktop">GitHub Desktop</a> or <a href="https://www.sourcetreeapp.com/">Sourcetree</a>.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h4>
+          <a href="/2025/01/23/prompt-engineering.html">
+            What is Prompt Engineering and How to Write Prompts Effectively?
+            <small>23 Jan 2025</small>
+          </a>
+        </h4>
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/2025/01/22/setup-python-env.html">
+            Setting Up a Python Environment with Miniconda
+            <small>22 Jan 2025</small>
+          </a>
+        </h4>
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/2025/01/22/Flux-Midjourney-Mix2-LoRA.html">
+            How to Use "Flux-Midjourney-Mix2-LoRA" Model on Hugging Face
+            <small>22 Jan 2025</small>
+          </a>
+        </h4>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

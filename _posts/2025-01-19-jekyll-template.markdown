@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Customize a GitHub Page Using Jekyll Template
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
 GitHub Pages integrates seamlessly with [Jekyll](https://jekyllrb.com/), a static site generator, allowing you to create and customize professional websites easily. Follow this step-by-step guide to set up and customize your page using a Jekyll template.

@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Profile](\public\img\profile.png)
+
 Hi there! I'm Busara Saelim, a Business Analyst with a growing passion for Artificial Intelligence (AI) and Large Language Models (LLMs). As someone who thrives on learning and adapting to new technologies, I’ve recently ventured into the world of AI to explore how these advanced models can transform industries and improve decision-making processes.
 
 ### Who Am I?

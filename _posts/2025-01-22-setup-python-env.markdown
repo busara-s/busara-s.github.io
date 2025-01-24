@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Setting Up a Python Environment with Miniconda
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
 Miniconda is a lightweight version of Anaconda that includes only Conda, Python, and the packages they depend on. It's ideal for creating isolated Python environments without the bulk of a full Anaconda installation.
@@ -11,11 +12,13 @@ This tutorial will guide you through setting up a Python environment using Minic
 ### Step 1: Download Miniconda
 1. Visit the [Miniconda downloads page](https://docs.anaconda.com/miniconda/install/#).
 2. Choose the appropriate installer for your operating system (Windows, macOS, or Linux).
+![img](\public\img\minicon_download.png)
 3. Download the installer.
 
 ### Step 2: Install Miniconda
 1. Run the installer:
 * Windows: Double-click the `.exe` file and follow the instructions.
+![img](\public\img\minicon_install.png)
 * macOS/Linux: Open a terminal and run the `.sh` script:
     ```
     bash
@@ -32,7 +35,7 @@ Open a terminal (or command prompt) and run:
 bash
 conda --version
 ```
-
+![img](\public\img\conda-ver.png)
 You should see the Conda version displayed.
 
 ## 2. Create a New Python Environment

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Beginner's Guide to Markdown (.md) File Type
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
 Markdown is a lightweight markup language that allows you to format text using a plain-text editor. Files written in Markdown use the `.md` or `.markdown` file extension and are widely used for documentation, README files, blog posts, and technical writing.
@@ -120,13 +121,13 @@ markdown
 * Preview Markdown directly in GitHub to ensure correct formatting.
 
 ## Markdown Editors and Tools
-### Popular Markdown Editors
+#### Popular Markdown Editors
 1. Visual Studio Code: Supports Markdown editing with live preview.
 2. Typora: A WYSIWYG Markdown editor.
 3. Obsidian: Ideal for note-taking with Markdown.
 4. Dillinger: An online Markdown editor.
 
-### Markdown Preview Tools
+#### Markdown Preview Tools
 * Most Markdown editors provide a preview pane.
 * Use online tools like [Markdown Live Preview](https://markdownlivepreview.com/) to see formatted content.
 
@@ -141,12 +142,12 @@ markdown
     <div style="color: red;">This is red text.</div>
     ```
 
-### Converting Markdown
+## Converting Markdown
 Markdown can be converted to formats like:
 
 * HTML: Tools like `pandoc` or online converters.
 * PDF: Use tools like `markdown-pdf` or export options in editors.
 * Word: Convert via pandoc or online tools.
 
-### Conclusion
+## Conclusion
 Markdown is an essential tool for writing clean and structured text in a simple format. Whether you’re writing documentation, creating a blog post, or managing README files, mastering Markdown will make your work more efficient and professional.

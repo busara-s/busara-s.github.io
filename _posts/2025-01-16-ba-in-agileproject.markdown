@@ -1,11 +1,14 @@
 ---
 layout: post
 title: What a Business Analyst Does Daily in an Agile Project
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
+![img](\public\img\agile.png)
 In an Agile environment, a Business Analyst (BA) plays a vital role as a bridge between stakeholders and the development team. Their day-to-day activities focus on ensuring that the team delivers solutions that align with business goals and stakeholder needs.
 
 Here’s a breakdown of what a BA typically does on a daily basis when working in an Agile project:
+![img](\public\img\scrum.png)
 
 ## 1. Participate in Daily Standups
 * Purpose: Attend a 15-minute team meeting (Scrum or Kanban standup) to:
@@ -78,9 +81,11 @@ Here’s a breakdown of what a BA typically does on a daily basis when working i
 
 ## Tools a Business Analyst Uses in Agile
 * [Jira](https://www.atlassian.com/software/jira): For managing user stories and tracking progress.
+![img](\public\img\jira.png)
 * [Confluence](https://www.atlassian.com/software/confluence): For documenting requirements and facilitating collaboration.
 * [Miro](https://miro.com/) or [Lucidchart](https://lucid.co/): For creating process flows or diagrams.
 * [Slack](https://slack.com/) or [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software): For real-time communication.
+![img](\public\img\slack.png)
 
 ## Conclusion
 A Business Analyst in Agile is a critical player in aligning business goals with technical delivery. By engaging in these activities daily, the BA ensures the team stays focused on delivering value while maintaining flexibility and responsiveness to change.

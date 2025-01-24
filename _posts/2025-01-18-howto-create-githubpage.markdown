@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Create a GitHub Page
+thumbnail: \public\apple-touch-icon-144-precomposed.png
 ---
 
 GitHub Pages is a free service that allows you to host websites directly from your GitHub repository. Follow this step-by-step guide to create your GitHub Page.
