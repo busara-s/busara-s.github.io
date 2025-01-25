@@ -5,7 +5,7 @@ from datetime import datetime
 BASE_URL = "https://busara-s.github.io"
 
 # Directory containing your HTML files (adjust this if necessary)
-SITE_DIRECTORY = "."
+SITE_DIRECTORY = "_site/"
 
 # Sitemap filename
 SITEMAP_FILE = "sitemap.xml"
